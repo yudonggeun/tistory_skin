@@ -441,7 +441,7 @@ hr {
 .cover-thumbnail-list ul li .thum:before {
 	content: url('./images/no-image.png');
 	position: absolute;
-	top: 50%;
+	top: 10%;
 	left: 0;
 	z-index: 0;
 	width: 100%;
@@ -650,7 +650,7 @@ hr {
 	background-color: #f6f6f6;
 }
 .cover-list ul li figure:before {
-	content: "NO IMAGE";
+	content: url('./images/no-image.png');
 	position: absolute;
 	top: 50%;
 	left: 0;
@@ -765,9 +765,9 @@ hr {
 	background-color: rgba(0,0,0,0.4);
 }
 .cover-gallery ul li a:before {
-	content: "NO IMAGE";
+	content: url('./images/no-image.png');
 	position: absolute;
-	top: 50%;
+	top: 10%;
 	left: 0;
 	z-index: 0;
 	width: 100%;
@@ -1177,9 +1177,9 @@ hr {
 	background-color: #ebebeb;
 }
 .related-articles ul li .thum:before {
-	content: "NO IMAGE";
+	content: url('./images/no-image.png');
 	position: absolute;
-	top: 50%;
+	top: 10%;
 	left: 0;
 	z-index: 0;
 	width: 100%;
@@ -1236,7 +1236,6 @@ hr {
 }
 .entry-content h3 {
 	margin: 19px 0 19px;
-	font-weight: 700;
 	font-size: 1.5em;
 }
 .entry-content h4 {
@@ -1280,7 +1279,7 @@ hr {
 .entry-content ul li {
 	position: relative;
 	padding-left: 22px;
-	font-size: 1.3em;
+	font-size: 20px;
 	line-height: 1.6;
 	color: #666;
 	list-style: inherit;
@@ -1292,7 +1291,7 @@ hr {
 .entry-content ol li {
 	position: relative;
 	padding-left: 16px;
-	font-size: 1.3em;
+	font-size: 20px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	line-height: 1.6;
@@ -2270,6 +2269,7 @@ hr {
 .contents_style h4,
 .contents_style h5,
 .contents_style h6 {
+	font-weight: 500;
 	letter-spacing: 0;
   line-height: 1.5em;
   margin-bottom: 15px;
