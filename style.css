@@ -1236,16 +1236,29 @@ hr {
 }
 .entry-content h3 {
 	margin: 19px 0 19px;
-	font-size: 1.5em;
+	font-size: 1.6em;
 }
 .entry-content h4 {
 	margin: 19px 0 19px;
 	font-weight: 400;
+	font-size: 1.4em;
+}
+
+.entry-content h5 {
+	margin: 19px 0 19px;
+	font-weight: 400;
 	font-size: 1.3em;
 }
+
+.entry-content h6 {
+	margin: 19px 0 19px;
+	font-weight: 400;
+	font-size: 1.3em;
+}
+
 .entry-content p {
 	margin-bottom: 24px;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	line-height: 1.6;
 	color: #666;
 }
@@ -1331,7 +1344,7 @@ hr {
 	margin-bottom: 22px;
 	border: 1px solid #e6e6e6;
 	border-collapse: collapse;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	line-height: 1.5714;
 	color: #666;
 }
@@ -2207,7 +2220,7 @@ hr {
   line-height: 1.5em;
   margin-bottom: 15px;
 	padding-bottom: 0px;
-	padding-left: 40px;
+	padding-left: 55px;
   position: relative;
 }
 
@@ -2228,10 +2241,18 @@ hr {
   transform: translateY(-5px);
 }
 .contents_style h3:before,
-.contents_style h4:before,
+.contents_style h4:before {
+  content:'💎';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 30px;
+}
+
 .contents_style h5:before,
 .contents_style h6:before {
-  content:'💎';
+  content:'🏳️';
   position: absolute;
   left: 0;
   top: 0;
@@ -2274,7 +2295,7 @@ hr {
   line-height: 1.5em;
   margin-bottom: 15px;
 	padding-bottom: 0px;
-	padding-left: 40px;
+	padding-left: 55px;
   position: relative;
 }
 /* h end */
@@ -2332,7 +2353,7 @@ figure a div {
 
 #tt-body-page blockquote span {
 	margin-bottom: 10px;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	font-family: 'omyu_pretty';
 }z
 
